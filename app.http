@@ -1,0 +1,9 @@
+POST http://localhost:3000/transactions
+
+{
+  "date": "2020-02-17",
+  "description": "Credited to Office Account",
+  "amount": 5000,
+  "type": "credit"
+}
+
